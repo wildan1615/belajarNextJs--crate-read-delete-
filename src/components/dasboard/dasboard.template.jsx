@@ -21,7 +21,7 @@ export const DashboardTemplate = ({ children }) => {
             <Menu label="Certificate" icon={<Diploma />}></Menu>
           </section>
         </aside>
-        <main className="w-[calc(100%-230px)] p-8">
+        <main className="w-[calc(100%-230px)] p-5">
           <div className="max-w-3xl m-auto">{children}</div>
         </main>
       </div>
